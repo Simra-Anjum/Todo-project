@@ -1,13 +1,16 @@
-body{
-  background-color: antiquewhite;
-  font-family: Arial;
-  
+body {
+  background-image: url('/image/Todo-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
 
 
 #main-heading {
   text-align:center ;
   font-weight: 900;
+  color: white;
   }
 
   .todo-container{
@@ -18,6 +21,8 @@ body{
     margin-top: 10px;
     font-weight: bold;
     justify-content: center;
+     color: white;
+     font-size: larger;
   }
   .grid-container{
     display: grid;
@@ -26,6 +31,7 @@ body{
     row-gap: 10px;
     justify-content: center;
     align-items: center;
+   
     
     
     
@@ -47,6 +53,9 @@ body{
     padding: 15px 5px;
     cursor: pointer;
 
+  }
+  .btn-delete:hover{
+    background-color: red;
   }
   .btn-todo{
     background-color: grey;
